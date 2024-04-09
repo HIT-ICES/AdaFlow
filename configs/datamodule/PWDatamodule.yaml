@@ -1,0 +1,7 @@
+_target_: src.datamodules.PWDatamodule.PWDatamodule
+
+batch_size: 32
+raw_dir: "./data/PW/"
+force_reload: False
+verbose: False
+transform: None

@@ -1,0 +1,21 @@
+_target_: src.models.MTFM.MTFMModel
+
+lr: 0.0001
+weight_decay: 1e-4
+embed_dim: 300
+max_doc_len: 10
+dropout: 0.2
+feature_dim: 8
+num_kernel: 256
+kernel_size: [2, 3, 4, 5]
+#num_mashup: 4461
+#num_api: 945
+#num_api: 1579
+num_api: 23469
+num_mashup: 7668
+feat_size: 128
+frozen_api_embeds: true
+top_k: 5
+metric_path: ./data/metric/P5/MTFM-g-w
+seed: 12345
+

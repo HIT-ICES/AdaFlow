@@ -1,0 +1,17 @@
+_target_: src.models.MLP.MLP
+
+#num_api: 1579
+num_api: 23469
+num_mashups: 7668
+#num_api: 1303
+#num_mashups: 3441
+feat_size: 128
+lr: 0.001
+weight_decay: 0.0001
+frozen_api_embeds: true
+top_k: 5
+#save_path: ./data/gptcheck/MLP/DS2/ada/
+#metric_path: ./data/metric/P5/DS2/MLP/glove/
+seed: 12354
+
+

@@ -1,0 +1,15 @@
+_target_: src.models.coACN.coACN
+
+#num_api: 945
+#num_mashup: 4461
+#num_api: 1579
+num_api: 23469
+num_mashup: 7668
+feat_size: 128
+negative_sample:  5
+lr: 0.0001
+weight_decay: 0.0001
+frozen_api_embeds: true
+#save_path: ./data/gptcheck/coACN/DS1/ada/
+#metric_path: ./data/metric/P5/DS2/coACN/glove
+seed: 12351
